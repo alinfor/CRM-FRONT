@@ -1,8 +1,11 @@
 
+import "./index.css"
+import Entier from "./page/Entier"
 
 function App() {
     return (
-    <div className="App">
+    <div>
+      <Entier/>
     </div>
   )
 }
