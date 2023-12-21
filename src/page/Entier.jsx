@@ -44,7 +44,7 @@ export default function Entier() {
   
 
   return (
-    <div>
+    <div className="flex justify-center items-center h-screen">
       {showResetPassword ? (
         <ResetPassword
           handleChange={handleChange}
