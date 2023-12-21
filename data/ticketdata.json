@@ -1,0 +1,28 @@
+{
+  "dashboard": {
+    "title": "Dashboard",
+    "buttonText": "Cliquez-moi",
+    "totalTickets": "Total tickets:",
+    "pendingTickets": "Pending tickets:"
+  },
+  "tickets": [
+    {
+      "id": 1,
+      "subject": "Exemple de sujet 1",
+      "status": "En cours",
+      "openDate": "2023-12-01"
+    },
+    {
+      "id": 2,
+      "subject": "Exemple de sujet 2",
+      "status": "En cours",
+      "openDate": "2023-12-01"
+    },
+    {
+      "id": 3,
+      "subject": "Exemple de sujet 3",
+      "status": "En cours",
+      "openDate": "2023-12-01"
+    }
+  ]
+}
