@@ -14,13 +14,13 @@
     },
     {
       "id": 2,
-      "subject": "Exemple de sujet 2",
+      "subject": "Teste de sujet ",
       "status": "En cours",
       "openDate": "2023-12-01"
     },
     {
       "id": 3,
-      "subject": "Exemple de sujet 3",
+      "subject": "Projet en cours",
       "status": "En cours",
       "openDate": "2023-12-01"
     }

@@ -1,10 +1,7 @@
-import React from 'react';
+import React from "react";
+import { Link } from "react-router-dom";
 
-// Assumez que vous avez importé le fichier JSON
-import ticketData from '../../../data/ticketdata.json';
-
-export default function TicketsTable() {
-  const tickets = ticketData.tickets || [];
+export default function TicketsTable({ tickets }) {
 
   return (
     <div className="h-full overflow-auto">
@@ -21,10 +18,15 @@ export default function TicketsTable() {
         </thead>
         <tbody>
           {tickets.length > 0 ? (
-            tickets.map(ticket => (
+            tickets.map((ticket) => (
               <tr key={ticket.id} className="border">
+
                 <td className="py-2 px-4 border"> {ticket.id} </td>
-                <td className="py-2 px-4 border"> {ticket.subject} </td>
+                <td className="py-2 px-4 border"> 
+                <Link to={`/Ticket/${ticket.id}`}>
+                    {ticket.subject}
+                </Link>
+                </td>
                 <td className="py-2 px-4 border"> {ticket.status} </td>
                 <td className="py-2 px-4 border"> {ticket.openDate} </td>
               </tr>
